@@ -7412,8 +7412,16 @@ body.tax-product_tag #dsn_header, body.tax-product_cat #dsn_header {
   color: #b3de4f;
   font-style: italic;
 
+}
+
+.link-ref-jeremiah:hover{
+  
+
+  text-decoration: underline;
+  color: #b6e840;
 
 }
+
 
 .list-services{
 
