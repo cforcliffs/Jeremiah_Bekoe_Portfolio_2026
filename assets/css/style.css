@@ -7436,3 +7436,54 @@ margin-left: 1.25rem;
   font-weight: bold;
     color: #b3de4f;
 }
+
+#repo-button-github{
+
+  margin: 3rem;
+  padding: 1rem 2rem;
+  border: 2px, solid, #b3de4f;
+  border-radius: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  --glow-color: #7afcff;
+  --glow-size: 12px;
+  background: linear-gradient(135deg, #111827, #b3de4f);
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 var(--glow-size) rgba(6, 185, 45, 0.35);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+#repo-button-github:hover, #repo-button-github:focus{
+
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 calc(var(--glow-size) * 1.6) rgba(122, 252, 255, 0.6);
+}
+
+
+
+
+#repo-button-netlify{
+
+  margin: 3rem;
+  padding: 1rem 2rem;
+  border: 2px, solid, #b3de4f;
+  border-radius: 3rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  --glow-color: #7afcff;
+  --glow-size: 12px;
+  background: linear-gradient(135deg, #111827, #b3de4f);
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 0 var(--glow-size) rgba(6, 185, 45, 0.35);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+#repo-button-netlify:hover, #repo-button-netlify:focus{
+
+  color: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 calc(var(--glow-size) * 1.6) rgba(122, 252, 255, 0.6);
+}
